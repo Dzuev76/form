@@ -1,0 +1,62 @@
+form {
+  margin-top: 30px;
+  padding: 1rem;
+  background: #D7D2D2;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.star {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+img {
+  -webkit-animation-name: cog;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: cog;
+  -moz-animation-duration: 20s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+   -ms-animation-name: cog;
+  -ms-animation-duration: 20s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+
+  animation-name: cog;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@-ms-keyframes cog {
+  from { -ms-transform: rotate(0deg); }
+  to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes cog {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes cog {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes cog {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
